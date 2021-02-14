@@ -27,10 +27,23 @@
               🌏
             </a>
             <ul class="p-subnav__items--right" id="account-menu" aria-hidden="true">
-              {{ range $.Site.Home.AllTranslations }}
-              <li>
-                <a href="{{ .Permalink }}" class="p-subnav__item">{{ .Language.LanguageName }}</a>
-              </li>
+              {{ if eq (len .AllTranslations) (len $.Site.Home.AllTranslations) }}
+                {{ range .AllTranslations }}
+                <li>
+                  <a href="{{ .Permalink }}" class="p-subnav__item">{{ .Language.LanguageName }}</a>
+                </li>
+                {{ end }}
+              {{ else }}
+                {{ range .AllTranslations }}
+                <li>
+                  <a href="{{ .Permalink }}" class="p-subnav__item">📄 {{ .Language.LanguageName }}</a>
+                </li>
+                {{ end }}
+                {{ range $.Site.Home.AllTranslations }}
+                <li>
+                  <a href="{{ .Permalink }}" class="p-subnav__item">🏠 {{ .Language.LanguageName }}</a>
+                </li>
+                {{ end }}
               {{ end }}
             </ul>
           </li>
