@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://www.ubucon.asia/ko/</loc>
+    <lastmod>2021-02-14T15:39:48+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ubucon.asia/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://www.ubucon.asia/ko/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.ubucon.asia/ko/events/ubucon-asia-2021/</loc>
+    <lastmod>2021-02-14T15:39:48+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ubucon.asia/events/ubucon-asia-2021/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://www.ubucon.asia/ko/events/ubucon-asia-2021/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.ubucon.asia/ko/events/</loc>
+    <lastmod>2021-02-14T15:39:48+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ubucon.asia/events/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://www.ubucon.asia/ko/events/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.ubucon.asia/ko/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ubucon.asia/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://www.ubucon.asia/ko/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.ubucon.asia/ko/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ubucon.asia/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://www.ubucon.asia/ko/tags/"
+                />
+  </url>
+  
+</urlset>

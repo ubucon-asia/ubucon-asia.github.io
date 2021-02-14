@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>우부콘 아시아 행사 on UbuCon Asia</title>
+    <link>https://www.ubucon.asia/ko/events/</link>
+    <description>Recent content in 우부콘 아시아 행사 on UbuCon Asia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 14 Feb 2021 15:39:48 +0900</lastBuildDate><atom:link href="https://www.ubucon.asia/ko/events/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>우부콘 아시아 2021</title>
+      <link>https://www.ubucon.asia/ko/events/ubucon-asia-2021/</link>
+      <pubDate>Sun, 14 Feb 2021 15:39:48 +0900</pubDate>
+      
+      <guid>https://www.ubucon.asia/ko/events/ubucon-asia-2021/</guid>
+      <description>첫 우부콘은 완전히 온라인으로 진행되는 컨퍼런스 입니다.</description>
+    </item>
+    
+  </channel>
+</rss>
