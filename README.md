@@ -1,5 +1,5 @@
 [![Deploy Website](https://github.com/ubucon-asia/ubucon-asia.github.io/workflows/Deploy%20Website/badge.svg)](https://github.com/ubucon-asia/ubucon-asia.github.io/actions?query=workflow%3A%22Deploy+Website%22)
-# 2021
+# ubucon-asia.github.io
 Website that contains index of Ubucon Asia events
 Built with [Hugo](https://gohugo.io) and [Vanilla framework](https://vanillaframework.io/)
 
@@ -26,33 +26,20 @@ After adding language in `config.yml` you will be able to see your new language 
 languages:
   ko: # Language code
     languageName: 한국어 # Language name
-    title: 우부콘 아시아 2021 # Site title
+    title: 우부콘 아시아
     weight: 2
     params:
-      description: >-
-        아시아에 있는 다양한 우분투 지역 커뮤니티에서 준비한 첫 우분투 아시아 컨퍼런스. # Site description
-      period: 2021년 3~4분기 중 개최 예정. # description for event period
+      description: >- # description for event period
+        2021년 부터 매년 Ubuntu 아시아 지역 커뮤니티를 모으고 연결하는 Ubuntu 컨퍼런스
     menu:
       main: # site navigation fields
-        - identifier: about
-          name: 소개 # Make sure to translate only "name" field
-          url: about
+        - identifier: events
+          name: 행사 # Make sure to translate only "name" field
+          url: events
           weight: 1
-        - identifier: sessions
-          name: 세션
-          url: sessions
-          weight: 2
-        - identifier: sponsors
-          name: 후원사
-          url: sponsors
-          weight: 3
-        - identifier: news
-          name: 소식
-          url: news
-          weight: 4
         - identifier: wiki
           name: 위키
-          url: https://wiki.ubuntu.com/UbuconAsia/2021
+          url: https://wiki.ubuntu.com/UbuconAsia
           weight: 5
 ```
 

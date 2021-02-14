@@ -18,7 +18,7 @@ defaultContentLanguage: en
 languages:
   ko:
     languageName: 한국어
-    title: UbuCon Asia
+    title: 우부콘 아시아
     weight: 2
     params:
       description: >-
