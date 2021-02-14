@@ -4,6 +4,7 @@ title: Ubucon Asia
 theme: ubuconasia-index
 Paginate: 5
 buildFuture: true
+enableRobotsTXT: true
 menu:
   main:
     - identifier: events
