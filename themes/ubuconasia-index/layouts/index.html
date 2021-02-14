@@ -1,0 +1,63 @@
+{{ define "main" }} 
+{{ $allPages := .Site.Pages }} 
+{{ range .Site.Home.Translations }} 
+{{ $allPages = $allPages | lang.Merge .Site.Pages }}
+{{ end }}
+
+{{ $regularPages := .Site.RegularPages }} 
+{{ range .Site.Home.Translations }}
+{{ $regularPages = $regularPages | lang.Merge .Site.RegularPages }} 
+{{ end }}
+
+<main>
+  <section class="p-strip--accent">
+    <div class="row">
+      <div class="col-8">
+        <h1>{{.Title}}</h1>
+        <h4>{{.Site.Params.description}}</h4>
+        <a href="about"><button>{{ i18n "learn_more" }}</button></a>
+      </div>
+      <div class="col-4">
+        <img src='{{ "/images/pictogram.png" | relURL }}' alt="" />
+      </div>
+    </div>
+  </section>
+  <section class="p-strip">
+      {{ range first 3 ( sort (where $regularPages "Section" "events") "Date" "desc" ) }} 
+      {{ $.Scratch.Add "i" 1 }}{{ $i := $.Scratch.Get "i" }}
+        <div class="row">
+        <div class="col-4">
+          <img src="{{.RelPermalink}}{{.Params.image}}" />
+        </div>
+        <div class="p-media-object col-8">
+          <div class="p-media-object__details">
+            <h3 class="p-media-object__title">
+              {{.Title}}
+            </h3>
+            <p class="p-media-object__content">{{.Params.summary}}</p>
+            <ul class="p-media-object__meta-list">
+              <li class="p-media-object__meta-list-item--date">
+                <span class="u-off-screen">Date: </span>
+                {{ dateFormat "2006-01-02" .Params.eventStartsAt }} ~ {{ dateFormat "2006-01-02" .Params.eventEndsAt }}
+              </li>
+              <li class="p-media-object__meta-list-item--venue">
+                <span class="u-off-screen">Venue: </span>{{.Params.venue}}
+              </li>
+              <li class="p-media-object__meta-list-item--location">
+                <span class="u-off-screen">Location: </span>{{.Params.location}}
+              </li>
+            </ul>
+            <a href="{{.RelPermalink}}"><button>{{ i18n "learn_more" }}</button></a>
+            <a href="{{.Params.link}}"><button>{{ i18n "visit_web" }}</button></a>
+          </div>
+        </div>
+        <hr/>
+      </div>
+      {{ end }}
+      <div class="row">
+        <a href='{{ ref . "/events/" }}'><button>{{ i18n "more_events" }}</button></a>
+      </div>
+    </div>
+  </section>
+</main>
+{{ end }}

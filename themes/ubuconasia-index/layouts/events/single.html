@@ -1,0 +1,40 @@
+{{ define "title"}} {{ .Title}} {{end}}
+{{ define "header"}} {{ partial "header" .}} {{end}}
+{{ define "main"}}
+<main>
+    <section class="p-strip--accent">
+        <div class="row">
+          <div class="col-8">
+            <h2>{{.Title}}</h2>
+            <ul class="p-media-object__meta-list is-dark">
+              <li class="p-media-object__meta-list-item--date">
+                <span class="u-off-screen">Date: </span>
+                {{ dateFormat "2006-01-02" .Params.eventStartsAt }} ~ {{ dateFormat "2006-01-02" .Params.eventEndsAt }}
+              </li>
+              <li class="p-media-object__meta-list-item--venue">
+                <span class="u-off-screen">Venue: </span>{{.Params.venue}}
+              </li>
+              <li class="p-media-object__meta-list-item--location">
+                <span class="u-off-screen">Location: </span>{{.Params.location}}
+              </li>
+            </ul>
+            <a href="{{.Params.link}}"><button>{{ i18n "visit_web" }}</button></a>
+          </div>
+          <div class="col-4">
+            <img src="{{.Params.image}}">
+          </div>
+        </div>
+      </section>
+      <section class="p-strip">
+        <div class="row">
+          <blockquote>
+            <p>{{.Params.summary}}</p>
+          </blockquote>
+          {{ .Content }}
+          <hr/>
+          <a href='{{ ref . "/events/" }}'><button>{{ i18n "more_events" }}</button></a>
+        </div>
+      </section>
+</main>
+
+{{end}}

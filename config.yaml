@@ -1,0 +1,54 @@
+baseURL: 'https://www.ubucon.asia/'
+languageCode: en-us
+title: Ubucon Asia
+theme: ubuconasia-index
+Paginate: 5
+buildFuture: true
+menu:
+  main:
+    - identifier: events
+      name: Events
+      url: events
+      weight: 1
+    - identifier: wiki
+      name: Wiki
+      url: https://wiki.ubuntu.com/UbuconAsia
+      weight: 5
+defaultContentLanguage: en
+languages:
+  ko:
+    languageName: 한국어
+    title: UbuCon Asia
+    weight: 2
+    params:
+      description: >-
+        2021년 부터 매년 Ubuntu 아시아 지역 커뮤니티를 모으고 연결하는 Ubuntu 컨퍼런스
+    menu:
+      main:
+        - identifier: events
+          name: 행사
+          url: events
+          weight: 1
+        - identifier: wiki
+          name: 위키
+          url: https://wiki.ubuntu.com/UbuconAsia
+          weight: 5
+  en:
+    languageName: English
+    title: Ubucon Asia
+    weight: 1
+    params:
+      description: >-
+        An annual Ubuntu conference gathers and connects Ubuntu local communities around Asia since 2021
+params:
+  contact: ubucon-asia@googlegroups.com
+  facebook: ubuconasia
+  twitter: ubuconasia
+  github: ubucon-asia
+  repo: https://github.com/ubucon-asia/ubucon-asia.github.io
+  copyright:  >-
+    © 2021~Present Ubucon Asia Website authors.
+    Unless specified, Website source code licensed under MIT, Contents licensed under CC BY 4.0
+  email: ubucon-asia@googlegroups.com
+outputs:
+  section: ["HTML", "RSS"]

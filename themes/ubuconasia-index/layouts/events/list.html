@@ -1,0 +1,51 @@
+{{ define "main" }}
+<main>
+  <section class="p-strip--accent">
+    <div class="row">
+      <h2>{{.Title}}</h2>
+    </div>
+  </section>
+  <section class="p-strip">
+    <div class="row">
+
+      {{ $pages := .Paginator.Pages }}
+      {{ range .Site.Home.Translations }}
+      {{ $pages = $pages | lang.Merge .Paginator.Pages }}
+      {{ end }}
+
+      {{ range where $pages "Section" "events" }}
+      <div class="row">
+        <div class="col-4">
+          <img src="{{.RelPermalink}}{{.Params.image}}" />
+        </div>
+        <div class="p-media-object col-8">
+          <div class="p-media-object__details">
+            <h3 class="p-media-object__title">
+              {{.Title}}
+            </h3>
+            <p class="p-media-object__content">{{.Params.summary}}</p>
+            <ul class="p-media-object__meta-list">
+              <li class="p-media-object__meta-list-item--date">
+                <span class="u-off-screen">Date: </span>
+                {{ dateFormat "2006-01-02" .Params.eventStartsAt }} ~ {{ dateFormat "2006-01-02" .Params.eventEndsAt }}
+              </li>
+              <li class="p-media-object__meta-list-item--venue">
+                <span class="u-off-screen">Venue: </span>{{.Params.venue}}
+              </li>
+              <li class="p-media-object__meta-list-item--location">
+                <span class="u-off-screen">Location: </span>{{.Params.location}}
+              </li>
+            </ul>
+            <a href="{{.RelPermalink}}"><button>{{ i18n "learn_more" }}</button></a>
+            <a href="{{.Params.link}}"><button>{{ i18n "visit_web" }}</button></a>
+          </div>
+        </div>
+        <hr/>
+      </div>
+      {{ end }}
+
+      {{- partial "pagination.html" . -}}
+    </div>
+  </section>
+</main>
+{{ end }}
