@@ -42,7 +42,7 @@ languages:
       description: >-
         An annual Ubuntu conference gathers and connects Ubuntu local communities around Asia since 2021
 params:
-  contact: ubucon-asia@googlegroups.com
+  contact: contact@ubucon.asia
   facebook: ubuconasia
   twitter: ubuconasia
   github: ubucon-asia
