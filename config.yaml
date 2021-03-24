@@ -17,6 +17,13 @@ menu:
       weight: 5
 defaultContentLanguage: en
 languages:
+  en:
+    languageName: English
+    title: Ubucon Asia
+    weight: 1
+    params:
+      description: >-
+        An annual Ubuntu conference gathers and connects Ubuntu local communities around Asia since 2021
   ko:
     languageName: 한국어
     title: 우부콘 아시아
@@ -34,13 +41,23 @@ languages:
           name: 위키
           url: https://wiki.ubuntu.com/UbuconAsia
           weight: 5
-  en:
-    languageName: English
+  ms:
+    languageName: Bahasa Melayu
     title: Ubucon Asia
-    weight: 1
+    weight: 2
     params:
       description: >-
-        An annual Ubuntu conference gathers and connects Ubuntu local communities around Asia since 2021
+        Persidangan tahunan Ubuntu bersama dan menghubungkan semua komuniti Ubuntu tempatan di seluruh Asia semenjak 2021
+    menu:
+      main:
+        - identifier: events
+          name: Aturcara
+          url: events
+          weight: 1
+        - identifier: wiki
+          name: Wiki
+          url: https://wiki.ubuntu.com/UbuconAsia
+          weight: 5
 params:
   contact: contact@ubucon.asia
   facebook: ubuconasia
