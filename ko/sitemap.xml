@@ -11,6 +11,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="ms"
+                href="https://www.ubucon.asia/ms/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="ko"
                 href="https://www.ubucon.asia/ko/"
                 />
@@ -21,6 +26,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://www.ubucon.asia/events/ubucon-asia-2021/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ms"
+                href="https://www.ubucon.asia/ms/events/ubucon-asia-2021/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -37,6 +47,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="ms"
+                href="https://www.ubucon.asia/ms/events/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="ko"
                 href="https://www.ubucon.asia/ko/events/"
                 />
@@ -49,6 +64,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="ms"
+                href="https://www.ubucon.asia/ms/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="ko"
                 href="https://www.ubucon.asia/ko/categories/"
                 />
@@ -58,6 +78,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://www.ubucon.asia/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ms"
+                href="https://www.ubucon.asia/ms/tags/"
                 />
     <xhtml:link
                 rel="alternate"
