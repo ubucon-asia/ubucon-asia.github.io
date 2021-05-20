@@ -58,6 +58,23 @@ languages:
           name: Wiki
           url: https://wiki.ubuntu.com/UbuconAsia
           weight: 5
+  id:
+    languageName: Bahasa Indonesia
+    title: Ubucon Asia
+    weight: 2
+    params:
+      description: >-
+        Konferensi tahunan Ubuntu yang mengumpulkan dan menghubungkan komunitas lokal Ubuntu di seluruh Asia sejak 2021
+    menu:
+      main:
+        - identifier: events
+          name: Acara
+          url: events
+          weight: 1
+        - identifier: wiki
+          name: Wiki
+          url: https://wiki.ubuntu.com/UbuconAsia
+          weight: 5
 params:
   contact: contact@ubucon.asia
   facebook: ubuconasia
