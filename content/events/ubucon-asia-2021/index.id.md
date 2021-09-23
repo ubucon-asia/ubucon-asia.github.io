@@ -7,7 +7,7 @@ summary: "Ubucon Asia pertama akan menjadi konferensi virtual sepenuhnya"
 link: "https://2021.ubucon.asia" # Event website url
 image: "ubuCon_logo_or.png" # Event logo
 location: "Daring" # City and Country (e.g. Seoul, South Korea)
-venue: "YouTube, Bilibili, Eventyay" # Event venue (e.g. JustCo Tower)
+venue: "Eventyay, Gather Town" # Event venue (e.g. JustCo Tower)
 draft: false # If true, this content will be hidden on website
 ---
 

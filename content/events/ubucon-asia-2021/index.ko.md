@@ -7,7 +7,7 @@ summary: "첫 우부콘은 완전히 온라인으로 진행되는 컨퍼런스 �
 link: "https://2021.ubucon.asia" # Event website url
 image: "ubuCon_logo_or.png" # Event logo
 location: "온라인" # City and Country (e.g. Seoul, South Korea)
-venue: "YouTube, Bilibili, Eventyay" # Event venue (e.g. JustCo Tower)
+venue: "Eventyay, Gather Town" # Event venue (e.g. JustCo Tower)
 draft: false # If true, this content will be hidden on website
 ---
 
