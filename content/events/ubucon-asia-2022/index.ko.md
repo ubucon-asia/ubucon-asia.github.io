@@ -5,7 +5,7 @@ eventStartsAt: 2022-11-26T10:00:00+09:00 # When the event starts
 eventEndsAt: 2022-11-27T18:00:00+09:00 # When the event ends
 summary: "첫 오프라인 우부콘 아시아는 서울에서 열릴 예정입니다"
 link: "https://2022.ubucon.asia" # Event website url
-image: "ubuCon_logo_or.png" # Event logo
+image: "uca22logo_orange.png" # Event logo
 location: "대한민국 서울" # City and Country (e.g. Seoul, South Korea)
 venue: "누리꿈 스퀘어" # Event venue (e.g. JustCo Tower)
 draft: false # If true, this content will be hidden on website

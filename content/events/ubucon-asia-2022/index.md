@@ -5,7 +5,7 @@ eventStartsAt: 2022-11-26T10:00:00+09:00 # When the event starts
 eventEndsAt: 2022-11-27T18:00:00+09:00 # When the event ends
 summary: "First In-person UbuCon Asia will be hold in Seoul, South Korea"
 link: "https://2022.ubucon.asia" # Event website url
-image: "ubuCon_logo_or.png" # Event logo
+image: "uca22logo_orange.png" # Event logo
 location: "Seoul, South Korea" # City and Country (e.g. Seoul, South Korea)
 venue: "Nuritkum Square (Nuri Dream Square)" # Event venue (e.g. JustCo Tower)
 draft: false # If true, this content will be hidden on website
