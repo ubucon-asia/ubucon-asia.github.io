@@ -80,6 +80,7 @@ params:
   facebook: ubuconasia
   twitter: ubuconasia
   github: ubucon-asia
+  mastodon: https://mastodon.social/@UbuConAsia
   repo: https://github.com/ubucon-asia/ubucon-asia.github.io
   copyright:  >-
     © 2021~Present Ubucon Asia Website authors.
