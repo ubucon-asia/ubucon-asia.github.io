@@ -1,5 +1,12 @@
-# Hugo default output directory
-/public
+## Hugo
+# Default output directory
+/public/
+# Generated files by hugo
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
+# Temporary lock file while building
+/.hugo_build.lock
 
 ## OS Files
 # Windows

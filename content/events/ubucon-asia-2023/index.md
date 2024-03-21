@@ -11,7 +11,7 @@ venue: "PTIK FKIP UNS" # Event venue (e.g. JustCo Tower)
 draft: false # If true, this content will be hidden on website
 ---
 
-Announcing UbuCon Asia 2023, this year's event will be helt at [PTIK FKIP UNS](https://ptik.fkip.uns.ac.id/) in Surakarta, Indonesia.
+Announcing UbuCon Asia 2023, this year's event will be held at [PTIK FKIP UNS](https://ptik.fkip.uns.ac.id/) in Surakarta, Indonesia.
 It will be also a joint event with LibreOffice Conf Asia.
 
 Join us from 7 to 8 of October this year, and meet people from Ubuntu & LibreOffice community in Indonesia and other regions of Asia!
