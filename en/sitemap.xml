@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.ubucon.asia/</loc>
-    <lastmod>2024-03-21T20:00:00+08:00</lastmod>
+    <lastmod>2025-03-21T20:00:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
@@ -25,11 +25,11 @@
                 href="https://www.ubucon.asia/"
                 />
   </url><url>
-    <loc>https://www.ubucon.asia/events/ubucon-asia-2024/</loc>
-    <lastmod>2024-03-21T20:00:00+08:00</lastmod>
+    <loc>https://www.ubucon.asia/events/ubucon-asia-2025/</loc>
+    <lastmod>2025-03-21T20:00:00+08:00</lastmod>
   </url><url>
     <loc>https://www.ubucon.asia/events/</loc>
-    <lastmod>2024-03-21T20:00:00+08:00</lastmod>
+    <lastmod>2025-03-21T20:00:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
@@ -50,6 +50,9 @@
                 hreflang="en"
                 href="https://www.ubucon.asia/events/"
                 />
+  </url><url>
+    <loc>https://www.ubucon.asia/events/ubucon-asia-2024/</loc>
+    <lastmod>2024-03-21T20:00:00+08:00</lastmod>
   </url><url>
     <loc>https://www.ubucon.asia/events/ubucon-asia-2023/</loc>
     <lastmod>2023-05-31T10:00:48+09:00</lastmod>
